@@ -1,0 +1,21 @@
+{
+  "name": "testserver",
+  "version": "0.0.1",
+  "description": "test server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mouang Lee",
+  "license": "ISC",
+  "dependencies": {
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodemon": "^0.5.4",
+    "grunt-env": "^0.4.4",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "morgan": "^1.9.0",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2"
+  }
+}
