@@ -41,8 +41,9 @@ module.exports = function (app, config) {
   
   };
 
+
   var app = express();
-  app.set('port'.process.env.Port || 3000);
+  app.set('port',process.env.Port || 3000);
 
   app.get('/',function(req,res){
       res.send("Hello World!");
@@ -52,6 +53,7 @@ module.exports = function (app, config) {
       console.log('Express started on http://localhost:' + app.get('port'));
   
   });
+
 
 
   

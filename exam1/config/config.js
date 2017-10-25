@@ -8,11 +8,11 @@ development: {
             app: {      name: 'ToDo'    },    
             port: 5000,  
  },  
- /*production: {    
+ production: {    
               root: rootPath,    
               app: {      name: 'ToDo'    },    
                port: 80,  }
-*/ };
+ };
 
 module.exports = config[env];
 
